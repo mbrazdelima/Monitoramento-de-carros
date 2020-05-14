@@ -19,7 +19,7 @@ Em um primeiro momento, foi desenvolvido um gráfico que apresentava os dados di
 um gráfico que traria os dados agrupados por mês (IMAGEM ....) . O segundo, traz informações mais gerais, já o primeiro, é possível maior detalhamento
 dos dados.
 
->>>>>>>>>>>>>>>>>>>> Colocar imagens dos graficos <<<<<<<<<<<<<<<<<<<<<<<<<<<
+![gráfico](https://user-images.githubusercontent.com/51482960/81885833-9614a580-9571-11ea-979a-1e85c8602f99.png)
 
 ### Tabela de índices
 Após a vizualização, é gerado uma tabela de índices. A tabela visa ajudar a interpretrar o gráfico através de números.
