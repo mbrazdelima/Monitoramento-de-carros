@@ -1,10 +1,11 @@
 # Monitoramento de carros
 
 ### Introdução
-Em empresas florestais, é muito comum que equipes de campo visitem vários plantios diariamente. Algumas equipes ficam responsáveis por monitorar pragas e doenças, outras por fazer a mensuração das florestas e por aí vai. Sendo assim, muitas empresas adotam sistemas para rastrear seus carros. Muitas informações são geradas e podem ser utilizadas para checar a utilização dos carros.
+Em empresas florestais, é muito comum que equipes de campo visitem vários plantios diariamente. Algumas equipes ficam responsáveis por monitorar pragas e doenças, outras por fazer a mensuração das florestas e por aí vai. Sendo assim, muitas empresas adotam sistemas para rastrear seus carros. Muitas informações são geradas e essas podem ser utilizadas para averiguar a correta utilização dos carros.
+Diante disso, esse código foi criado para analisar dados de monitoramento de carros de empresas. Como produto, o código gera um gráfico e uma tabela de fácil interpretação para auxilar a análise de um gestor.
 
-Esse projeto consiste na plicação de uma análise de dados sobre a utilização de carros de uma empresa. A solução foi criada para processar dados brutos e gerar dois produtos de fácil interpretação para tomada de decisão. 
-A base de dados contêm valores diários do horário de começo e término da jornada de trabalho. O horário de início da jornada representa o exato momento que o colaborador ligou o carro pela primeira vez naquele dia. Já o horário de término, representa o último horário do dia em que o carro foi desligado.
+### Base de dados
+A base de dados contêm valores diários do horário de começo e de término da jornada de trabalho. O horário de início da jornada representa o exato momento em que o colaborador liga o carro pela primeira vez no dia. Já o horário de término, representa o exata hora em que o carro foi desligado pela última vez no dia.
 
 ![baseDados](https://user-images.githubusercontent.com/51482960/81893231-89994880-9583-11ea-818f-ff9b1b7afd80.png)
 
@@ -12,7 +13,7 @@ Figura 1. Base de dados
 
 
 ### Tratamento dos dados
-Tive bastante dificuldade para trabalhar com dados no formato datatime nas colunas que continham os horários. Para contornar o problema, fiz algumas manipulações. Ao importar a base, transformei as colunas de horas em formato 00:00 para string. Separei os valores de horas e minutos em duas novas colunas. A partir daí, converti a coluna de minutos em horas, somei esse valor com a coluna de horas e armazenei o resultado em uma nova coluna. Dessa forma, uma hora que estava representada por 07:30, foi transformada em 7,5. Essa transformação foi feita para as colunas "Início" e "Final". 
+Tive bastante dificuldade para trabalhar com dados no formato "datatime" nas colunas que continham os horários. Para contornar o problema, fiz algumas manipulações. Ao importar a base, transformei as colunas de horas, em formato 00:00, para string. Separei os valores de horas e minutos em duas novas colunas. A partir daí, converti a coluna de minutos em horas, somei esse valor com a coluna de horas e armazenei o resultado em uma nova coluna. Dessa forma, uma hora que estava representada por 07:30, foi transformada em 7,5. Essa transformação foi feita para as colunas "Início" e "Final". 
 
 Os dias que não continham informações, foram excluídos da base. Também foram excluídos os dias que representavam pequenos deslocamentos, intervalo entre o horário inicial e final menor que 4h.  
 
