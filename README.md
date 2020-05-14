@@ -12,7 +12,7 @@ Figura 1. Base de dados
 
 
 ### Tratamento dos dados
-Tive bastante dificuldade para trabalhar com dados no formato datatime nas colunas que continham os horários. Para contornar o problema, fiz algumas manipulações. Ao importar a base, transformei as colunas de horas em formato 00:00 para string. Separei os valores de horas e minutos em duas novas colunas. A partir daí, converti a coluna de minutos em horas, somei esse valor com a coluna de horas e armazenei o resultado em uma nova coluna. Dessa forma, uma hora que estava representada por 07:30, foi transformada em 7,5. Essa transformação foi feita para as colunas de hora de início e hora final. 
+Tive bastante dificuldade para trabalhar com dados no formato datatime nas colunas que continham os horários. Para contornar o problema, fiz algumas manipulações. Ao importar a base, transformei as colunas de horas em formato 00:00 para string. Separei os valores de horas e minutos em duas novas colunas. A partir daí, converti a coluna de minutos em horas, somei esse valor com a coluna de horas e armazenei o resultado em uma nova coluna. Dessa forma, uma hora que estava representada por 07:30, foi transformada em 7,5. Essa transformação foi feita para as colunas "Início" e "Final". 
 
 Os dias que não continham informações, foram excluídos da base. Também foram excluídos os dias que representavam pequenos deslocamentos, intervalo entre o horário inicial e final menor que 4h.  
 
