@@ -1,18 +1,13 @@
 # Monitoramento de carros
 
-O projeto visa gerar informação diante de uma base de dados com horário de começo e término de jornada de trablhado de carros de uma empresa. 
-Imagine que uma empresa monitora todos os carros que são disponibilizados aos funcionários. Uma das informações geradas é uma base dados que
-contêm o primeiro horário que o carro foi ligado e o último horário que o carro foi desligado.
-A proposta desse projeto é gerar informação de valor diante dessa base de dados. Os produtos gerados foram dois, um gráfico 
-para vizualizar os dados e uma tabela de índices.
+### Introdução
+Em empresas florestais, é muito comum que equipes de campo visitem vários plantios diariamente. Algumas equipes ficam responsáveis por monitorar pragas e doenças, outras por fazer a mensuração das florestas e por aí vai. Sendo assim, muitas empresas adotam sistemas para rastrear seus carros. Muitas informações são geradas e podem ser utilizadas para checar a utilização dos carros.
 
-### Tratamento de dados
-A base de dados contém as colunas "Mês", "Dia", "Hora Início" e "Hora Final".
-A hora estava no formato 00:00. Para conseguir trablhar como esse tipo de dado, pode-se utilizar o module "datetime". Porém, tive bastante dificuldade em 
-trabalhar com ele e tive que que fazer por outro caminho. Transformei as colunas de horas em string, extrair horas e minutos, transformei minutos em horas e somei
-os dados. Dessa forma, uma hora que estava representada por 07:30 na base de dados, foi transformada em 7,5h. Essa transformação foi feita
-para a hora de início e hora final. 
-Os dias que não continham dados, foram excluídos da base.
+Esse projeto consiste na plicação de uma análise de dados sobre a utilização de carros de uma empresa. A solução foi criada para processar dados brutos e gerar produtos de fácil interpretação para tomada de decisão. 
+A base de dados contêm valores diários do horário de começo e término da jornada de trabalho. O horário de início da jornada representa o exato momento que o colaborador ligou o carro pela primeira vez naquele dia. Já o horário de término, representa o último horário do dia em que o carro foi desligado.
+
+### Tratamento dos dados
+Tive bastante dificuldade para trabalhar com dados no formato datatime nas colunas que continham os horários. Para contornar o problema, fiz algumas manipulações. Ao importar a base, transformei as colunas de horas em formato 00:00 em string. Separei os valores de horas e minutos em duas novas colunas. A partir daí, converti a coluna de minutos em horas, somei esse valor com a coluna de horas e armazenei o resultado em uma nova coluna. Dessa forma, uma hora que estava representada por 07:30, foi transformada em 7,5. Essa transformação foi feita para as colunas de hora de início e hora final. Os dias que não continham informação, foram excluídos da base.
 
 ### Vizualização de dados
 Em um primeiro momento, foi desenvolvido um gráfico que apresentava os dados diários de cada mês (IMAGEM ....). POsteriormente, foi desenvolvido 
