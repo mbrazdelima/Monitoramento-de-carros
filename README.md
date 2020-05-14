@@ -24,3 +24,6 @@ dos dados.
 ### Tabela de índices
 Após a vizualização, é gerado uma tabela de índices. A tabela visa ajudar a interpretrar o gráfico através de números.
 Os índices são calculados para cada mês. São eles: 
+
+![tabela](https://user-images.githubusercontent.com/51482960/81886344-d6285800-9572-11ea-81ad-743079408154.png)
+
