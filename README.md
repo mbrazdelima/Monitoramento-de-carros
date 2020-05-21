@@ -36,7 +36,7 @@ Segue abaixo a lista de índices:
 - Tempo de jornada médio
 
 Além desses, novos índices podem ser adicionados, modificados ou excluídos facilmente.
-![tabela](https://user-images.githubusercontent.com/51482960/81886344-d6285800-9572-11ea-81ad-743079408154.png)
+![tabela](https://user-images.githubusercontent.com/51482960/82607776-d5557e80-9b8f-11ea-92ff-ac7d7a32138a.png)
 
 Figura 3. Tabela de índices
 
