@@ -46,5 +46,4 @@ Com o auxílio da tabela, é possível comprovar os desvios do mês de Outubro. 
 
 ### Conclusão
 Esse projeto visa transformar dados brutos em informação de fácil interpretação. Com o gráfico e a tabela, o gestor consegue fazer uma análise rápida e precisa para tomar suas decisões.
-Essa ferramenta também pode ser utilizada dentro de uma empresa em diferentes outros cenários, desde que esteja trabalhando com dados relacionados a horários. Ao invés de monitorar carros, pode ser utilizada para monitorar o funcionamento de máquinas, por exemplo.
-Utilize-a você de acordo com a sua necessidade!
+Essa ferramenta também pode ser utilizada dentro de uma empresa em diferentes outros cenários, desde que esteja trabalhando com dados relacionados a horários. Ao invés de monitorar carros, pode ser utilizada para monitorar o funcionamento de máquinas, por exemplo. As funções criadas podem facilmente calcular médias de horários, diferenças entre horários e porcentagens.
