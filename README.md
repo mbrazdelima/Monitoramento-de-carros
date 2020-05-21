@@ -19,7 +19,8 @@ Os dias que não continham informações, foram excluídos da base. Também fora
 
 
 ### Vizualização
-Para facilitar a interpretação dos dados, foi desenvolvido um gráfico. Esse gráfico plota todos os valores diários de cada mês. Pontos verdes representam o horário de início, pontos vermelhos representam o horário final e duas linhas pretas representam os hórarios de início e fim do expediente, 8h e 17h respectivamente. 
+Para facilitar a interpretação dos dados, foi desenvolvido um gráfico. Esse gráfico plota todos os valores diários de cada mês. Pontos verdes representam o horário de início, pontos vermelhos representam o horário final e duas linhas pretas representam os hórarios de início e fim do expediente, 8h e 17h respectivamente.
+
 ![gráfico](https://user-images.githubusercontent.com/51482960/81885833-9614a580-9571-11ea-979a-1e85c8602f99.png)
 
 Figura 2. Gráfico de agrupamento mensal dos dados
@@ -40,7 +41,7 @@ Além desses, novos índices podem ser adicionados, modificados ou excluídos fa
 
 Figura 3. Tabela de índices
 
-Com o auxílio da tabela, é possível comprovar os desvios do mês de Outubro. O expediente começou depois das 8h e terminou antes das 17h todos os dias. Na média, o trabalho começou às 9,3h (09:18) e finalizou às 15,5h (15:30). 
+Com o auxílio da tabela, é possível comprovar os desvios do mês de Outubro. O expediente começou depois das 8h e terminou antes das 17h todos os dias. Na média, o trabalho começou 09:18 e finalizou 15:30. Além disso, é possível notar que a média da jornada de trabalho diária foi de 6h e 12min. 
 
 ### Conclusão
 Esse projeto visa transformar dados brutos em informação de fácil interpretação. Com o gráfico e a tabela, o gestor consegue fazer uma análise rápida e precisa para tomar suas decisões.
